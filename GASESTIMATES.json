@@ -1,32 +1,11 @@
 {
 	"Creation": {
-		"codeDepositCost": "871600",
-		"executionCost": "103914",
-		"totalCost": "975514"
+		"codeDepositCost": "192400",
+		"executionCost": "233",
+		"totalCost": "192633"
 	},
 	"External": {
-		"admin()": "1010",
-		"allowance(address,address)": "1137",
-		"approve(address,uint256)": "22703",
-		"balanceOf(address)": "906",
-		"decimalFactor()": "459",
-		"decimals()": "314",
-		"decreaseApproval(address,uint256)": "infinite",
-		"getLock(address)": "859",
-		"increaseApproval(address,uint256)": "infinite",
-		"kill()": "31199",
-		"lock(address,uint256)": "22594",
-		"lockMap(address)": "608",
-		"name()": "infinite",
-		"owner()": "878",
-		"pause()": "22500",
-		"paused()": "679",
-		"symbol()": "infinite",
-		"totalSupply()": "417",
-		"transfer(address,uint256)": "infinite",
-		"transferAdminship(address)": "23262",
-		"transferBatch(address[],uint256[])": "infinite",
-		"transferFrom(address,address,uint256)": "infinite",
-		"transferOwnership(address)": "23526"
+		"balanceOf(address)": "529",
+		"transfer(address,uint256)": "infinite"
 	}
 }

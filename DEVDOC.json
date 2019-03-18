@@ -1,13 +1,5 @@
 {
 	"methods": {
-		"allowance(address,address)": {
-			"details": "Function to check the amount of tokens that an owner allowed to a spender.\r",
-			"params": {
-				"_owner": "address The address which owns the funds.\r",
-				"_spender": "address The address which will spend the funds.\r"
-			},
-			"return": "A uint256 specifying the amount of tokens still available for the spender.\r"
-		},
 		"balanceOf(address)": {
 			"details": "Gets the balance of the specified address.\r",
 			"params": {
@@ -15,14 +7,13 @@
 			},
 			"return": "An uint256 representing the amount owned by the passed address.\r"
 		},
-		"pause()": {
-			"details": "called by the owner to set new pause flags\r"
-		},
-		"transferOwnership(address)": {
-			"details": "Allows the current owner to transfer control of the contract to a newOwner.\r",
+		"transfer(address,uint256)": {
+			"details": "transfer token for a specified address\r",
 			"params": {
-				"newOwner": "The address to transfer ownership to.\r"
+				"_to": "The address to transfer to.\r",
+				"_value": "The amount to be transferred.\r"
 			}
 		}
-	}
+	},
+	"title": "Basic token\r"
 }

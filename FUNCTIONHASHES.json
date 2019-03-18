@@ -1,25 +1,4 @@
 {
-	"66188463": "decreaseApproval(address,uint256)",
-	"f851a440": "admin()",
-	"dd62ed3e": "allowance(address,address)",
-	"095ea7b3": "approve(address,uint256)",
 	"70a08231": "balanceOf(address)",
-	"6d6a6a4d": "decimalFactor()",
-	"313ce567": "decimals()",
-	"6b9db4e6": "getLock(address)",
-	"d73dd623": "increaseApproval(address,uint256)",
-	"41c0e1b5": "kill()",
-	"282d3fdf": "lock(address,uint256)",
-	"266aa5f4": "lockMap(address)",
-	"06fdde03": "name()",
-	"8da5cb5b": "owner()",
-	"8456cb59": "pause()",
-	"5c975abb": "paused()",
-	"95d89b41": "symbol()",
-	"18160ddd": "totalSupply()",
-	"a9059cbb": "transfer(address,uint256)",
-	"5be7cc16": "transferAdminship(address)",
-	"3b3e672f": "transferBatch(address[],uint256[])",
-	"23b872dd": "transferFrom(address,address,uint256)",
-	"f2fde38b": "transferOwnership(address)"
+	"a9059cbb": "transfer(address,uint256)"
 }
