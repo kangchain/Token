@@ -288,7 +288,7 @@ contract PausableToken is StandardToken, Pausable {
 
 contract KangChain is PausableToken {
     string  public  constant name = "KangChain";
-    string  public  constant symbol = "KANG";
+    string  public  constant symbol = "KC";
     uint8   public  constant decimals = 18;
     uint256 public constant decimalFactor = 10 ** uint256(decimals);
     uint256 public totalSupply = 500000000 * decimalFactor;
